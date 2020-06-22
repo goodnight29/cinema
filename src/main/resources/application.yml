@@ -1,0 +1,42 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/fsaas?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: root
+  thymeleaf:
+    prefix: classpath:/templates/
+    check-template-location: true
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML
+    cache: false
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    jedis:
+      pool:
+        #连接池最大连接数（使用负值表示没有限制）
+        max-active: 50
+        max-idle: 20
+        min-idle: 2
+mybatis:
+  mapper-locations: classpath:com/qhit/fsaas/dao/*Mapper.xml
+#showSql
+logging:
+  level:
+    root: warn
+    org.apache.tomcat: warn
+    org.apache.catalina: warn
+    com.alibaba.fastjson: debug
+    com.qhit: debug
+  pattern:
+    console: '%clr([%d]){magenta}%clr([%-5p]){highlight} %clr(-){red}%clr(%-45.45logger{45}){cyan} %clr(:){red}%clr(%-35M){blue}%clr(:){red}%clr(%m){faint}%n'
+    dateformat: yy-MM-dd HH:mm:ss.SSS

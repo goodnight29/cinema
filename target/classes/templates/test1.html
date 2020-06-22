@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" async defer>
+        $(function(){
+            $("#OK").click(function () {
+                var AjaxData = [];//最外层数组
+
+                var passengers = {};//for录入 一组人信息
+
+                var passenger_info = [];//一组人信息
+
+                var passenger1 = {};
+                passenger1.id = 1;
+                passenger1.pname = $("#pName").val();
+                passenger1.preferred = $(".preferred:radio:checked").val();
+                passenger_info[0] = passenger1;
+
+                passengers.passenger_num = 1;//一组人数 i
+                passengers.passenger_info = passenger_info;//一组人信息
+
+                AjaxData[0] = passengers;
+
+                $.ajax({
+                    type: "POST",
+                    url: "/assignedSeatForOne",
+                    dataType: "json",
+                    data: JSON.stringify(AjaxData),
+                    contentType:"application/json",
+                    success: function (data) {
+                        console.log(data);
+                    },
+                    complete: function () {
+                    },
+                    error: function () {
+                        alert("数据加载失败");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    姓名:<input id="pName" name="pName" type="text"><br>
+<!--    性别:<input id="sex" name="sex" type="text"><br>-->
+    偏好:
+    <input class="preferred" name="preferred" type="radio" value="gate"/>登机口
+    <input class="preferred" name="preferred" type="radio" value="aisle"/>靠过道
+    <input class="preferred" name="preferred" type="radio" value="windows"/>靠窗
+    <input class="preferred" name="preferred" type="radio" value="basket"/>婴儿挂篮<br>
+    <button id="OK">OK</button>
+</div>
+</body>
+</html>

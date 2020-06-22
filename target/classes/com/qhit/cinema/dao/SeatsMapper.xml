@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qhit.fsaas.dao.SeatsMapper">
+  <resultMap id="BaseResultMap" type="com.qhit.fsaas.bo.Seats">
+    <id column="sid" jdbcType="INTEGER" property="sid" />
+    <result column="srow" jdbcType="INTEGER" property="sRow" />
+    <result column="scolumn" jdbcType="VARCHAR" property="sColumn" />
+    <result column="v_gate" jdbcType="INTEGER" property="v_gate" />
+    <result column="v_aisle" jdbcType="INTEGER" property="v_aisle" />
+    <result column="v_window" jdbcType="INTEGER" property="v_window" />
+    <result column="v_basket" jdbcType="INTEGER" property="v_basket" />
+    <result column="v_exit" jdbcType="INTEGER" property="v_exit" />
+    <result column="tid" jdbcType="INTEGER" property="tid" />
+    <result column="aid" jdbcType="INTEGER" property="aid" />
+    <result column="pName" jdbcType="VARCHAR" property="pName" />
+    <result column="assigned" jdbcType="INTEGER" property="assigned" />
+    <result column="flag" jdbcType="BIGINT" javaType="java.lang.Long" property="flag" />
+  </resultMap>
+  <select id="selectAllSeatsWithFlag" statementType="CALLABLE" resultMap="BaseResultMap">
+    call t1_seats(#{tid,jdbcType=INTEGER})
+  </select>
+</mapper>

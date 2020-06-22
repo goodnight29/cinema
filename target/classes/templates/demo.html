@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a class="btn btn-success" href="/template/nullTemplate"
+   id="btn1">下载Excel模板</a>
+<form action="/template/import" enctype="multipart/form-data" id="importForm"
+      method="post">
+    <div class="modal-body">
+        <div class="container-fluid">
+            <input id="importFile" name="file" style="width:330px" type="file"/>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <input class="btn btn-primary" id="btnImport" type="button" value="导入"/>
+    </div>
+</form>
+<script src="../../layui/layui.js"></script>
+<script>
+    //JavaScript代码区域
+    layui.use(['element', 'form', 'jquery', 'layer'], function () {
+        var $ = layui.$, layer = layui.layer;
+
+        $("#btnImport").click(function () {
+            var f = $("#importFile").val();
+            if (f === "") {
+                return layer.msg('导入文件不能为空。'), !1;
+            }
+            return layer.confirm("确定保存", {
+                icon: 3,
+                title: "提示",
+                btn: ['确定', '取消'],
+            }, function () {
+                var load = layer.load();
+                $("#importForm").submit();
+                $("#btnImport").attr('disabled', true);
+                return true;
+            });
+        });
+    });
+</script>
+</body>
+</html>

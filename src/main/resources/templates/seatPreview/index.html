@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perspective Seat Preview | Codrops</title>
+    <meta name="description"
+          content="An experimental demo where a 3D perspective preview is shown for a selected seat in a cinema room."/>
+    <meta name="keywords" content="cinema, seat booking, seating plan, perspective, 3d"/>
+    <meta name="author" content="Codrops"/>
+    <link rel="shortcut icon" href="../../seatPreview/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../seatPreview/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../../seatPreview/css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="../../seatPreview/css/component.css"/>
+    <script src="../../seatPreview/js/modernizr-custom.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="cube">
+        <div class="cube__side cube__side--front"></div>
+        <div class="cube__side cube__side--back">
+            <div class="screen">
+                <div class="video">
+                    <video class="video-player" src="../../seatPreview/media/sintel.mp4" preload="auto"
+                           poster="../../seatPreview/media/A33A.png">
+                        <source src="../../seatPreview/media/sintel.ogg" type='video/ogg; codecs="theora, vorbis"'>
+                        <source src="../../seatPreview/media/sintel.mp4"
+                                type='video/mp4; codecs="av33A.4D401E, mp4a.40.2"'>
+                        <p>Sorry, but your browser does not support this video format.</p>
+                    </video>
+                    <button class="action action--play action--shown" aria-label="Play Video"></button>
+                </div>
+                <div class="intro intro--shown">
+                    <div class="intro__side">
+                        <button class="action action--seats">Select your seats</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cube__side cube__side--left"></div>
+        <div class="cube__side cube__side--right"></div>
+        <div class="cube__side cube__side--top"></div>
+        <div class="rows rows--large">
+            <div class="row">
+                <div data-seat="31A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="31C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="31D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="31E" class="row__seat"></div>
+                <div data-seat="31F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="31G" class="row__seat"></div>
+                </div>
+                <div data-seat="31H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="31K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="32A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="32C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="32D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="32E" class="row__seat"></div>
+                <div data-seat="32F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="32G" class="row__seat"></div>
+                </div>
+                <div data-seat="32H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="32K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="33A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="33C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="33D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="33E" class="row__seat"></div>
+                <div data-seat="33F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="33G" class="row__seat"></div>
+                </div>
+                <div data-seat="33H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="33K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="34A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="34C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="34D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="34E" class="row__seat"></div>
+                <div data-seat="34F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="34G" class="row__seat"></div>
+                </div>
+                <div data-seat="34H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="34K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="35A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="35C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="35D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="35E" class="row__seat"></div>
+                <div data-seat="35F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="35G" class="row__seat"></div>
+                </div>
+                <div data-seat="35H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="35K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="36A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="36C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="36D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="36E" class="row__seat"></div>
+                <div data-seat="36F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="36G" class="row__seat"></div>
+                </div>
+                <div data-seat="36H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="36K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="37A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="37C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="37D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="37E" class="row__seat"></div>
+                <div data-seat="37F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="37G" class="row__seat"></div>
+                </div>
+                <div data-seat="37H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="37K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="38A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="38C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="38D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="38E" class="row__seat"></div>
+                <div data-seat="38F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="38G" class="row__seat"></div>
+                </div>
+                <div data-seat="38H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="38K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="39A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="39C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="39D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="39E" class="row__seat"></div>
+                <div data-seat="39F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="39G" class="row__seat"></div>
+                </div>
+                <div data-seat="39H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="39K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="40A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="40C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="40D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="40E" class="row__seat"></div>
+                <div data-seat="40F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="40G" class="row__seat"></div>
+                </div>
+                <div data-seat="40H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="40K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="41A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="41C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="41D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="41E" class="row__seat"></div>
+                <div data-seat="41F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="41G" class="row__seat"></div>
+                </div>
+                <div data-seat="41H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="41K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="42A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="42C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="42D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="42E" class="row__seat"></div>
+                <div data-seat="42F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="42G" class="row__seat"></div>
+                </div>
+                <div data-seat="42H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="42K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="43A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="43C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="43D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="43E" class="row__seat"></div>
+                <div data-seat="43F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="43G" class="row__seat"></div>
+                </div>
+                <div data-seat="43H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="43K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="44A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="44C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="44D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="44E" class="row__seat"></div>
+                <div data-seat="44F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="44G" class="row__seat"></div>
+                </div>
+                <div data-seat="44H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="44K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="45A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="45C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="45D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="45E" class="row__seat"></div>
+                <div data-seat="45F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="45G" class="row__seat"></div>
+                </div>
+                <div data-seat="45H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="45K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="46A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="46C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="46D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="46E" class="row__seat"></div>
+                <div data-seat="46F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="46G" class="row__seat"></div>
+                </div>
+                <div data-seat="46H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="46K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="47A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="47C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="47D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="47E" class="row__seat"></div>
+                <div data-seat="47F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="47G" class="row__seat"></div>
+                </div>
+                <div data-seat="47H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="47K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="48A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="48C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="48D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="48E" class="row__seat"></div>
+                <div data-seat="48F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="48G" class="row__seat"></div>
+                </div>
+                <div data-seat="48H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="48K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="49A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="49C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="49D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="49E" class="row__seat"></div>
+                <div data-seat="49F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="49G" class="row__seat"></div>
+                </div>
+                <div data-seat="49H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="49K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="50A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="50C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="50D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="50E" class="row__seat"></div>
+                <div data-seat="50F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="50G" class="row__seat"></div>
+                </div>
+                <div data-seat="50H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="50K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="51A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="51C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="51D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="51E" class="row__seat"></div>
+                <div data-seat="51F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="51G" class="row__seat"></div>
+                </div>
+                <div data-seat="51H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="51K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="52A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="52C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="52D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="52E" class="row__seat"></div>
+                <div data-seat="52F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="52G" class="row__seat"></div>
+                </div>
+                <div data-seat="52H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="52K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="53A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="53C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="53D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="53E" class="row__seat"></div>
+                <div data-seat="53F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="53G" class="row__seat"></div>
+                </div>
+                <div data-seat="53H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="53K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="54A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="54C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="54D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="54E" class="row__seat"></div>
+                <div data-seat="54F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="54G" class="row__seat"></div>
+                </div>
+                <div data-seat="54H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="54K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="55A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="55C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="55D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="55E" class="row__seat"></div>
+                <div data-seat="55F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="55G" class="row__seat"></div>
+                </div>
+                <div data-seat="55H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="55K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="56A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="56C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="56D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="56E" class="row__seat"></div>
+                <div data-seat="56F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="56G" class="row__seat"></div>
+                </div>
+                <div data-seat="56H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="56K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="57A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="57C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="57D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="57E" class="row__seat"></div>
+                <div data-seat="57F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="57G" class="row__seat"></div>
+                </div>
+                <div data-seat="57H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="57K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="58A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="58C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="58D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="58E" class="row__seat"></div>
+                <div data-seat="58F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="58G" class="row__seat"></div>
+                </div>
+                <div data-seat="58H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="58K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="59A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="59C" class="row__seat"></div>
+                <div class="center">
+                <div data-seat="59D" class="row__seat row__seat--reserved"></div>
+                <div data-seat="59E" class="row__seat"></div>
+                <div data-seat="59F" class="row__seat row__seat--reserved"></div>
+                <div data-seat="59G" class="row__seat"></div>
+                </div>
+                <div data-seat="59H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="59K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="60A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="60C" class="row__seat"></div>
+                <div class="center">
+                    <div data-seat="60D" class="row__seat row__seat--reserved"></div>
+                    <div data-seat="60E" class="row__seat"></div>
+                    <div data-seat="60F" class="row__seat row__seat--reserved"></div>
+                    <div data-seat="60G" class="row__seat"></div>
+                </div>
+                <div data-seat="60H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="60K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="61A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="61C" class="row__seat"></div>
+                <div class="center">
+                    <div data-seat="61D" class="row__seat row__seat--reserved"></div>
+                    <div data-seat="61E" class="row__seat"></div>
+                    <div data-seat="61F" class="row__seat row__seat--reserved"></div>
+                    <div data-seat="61G" class="row__seat"></div>
+                </div>
+                <div data-seat="61H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="61K" class="row__seat"></div>
+            </div>
+            <div class="row">
+                <div data-seat="62A" class="row__seat row__seat--reserved"></div>
+                <div data-seat="62C" class="row__seat"></div>
+                <div class="center">
+                    <div data-seat="62D" class="row__seat row__seat--reserved"></div>
+                    <div data-seat="62E" class="row__seat"></div>
+                    <div data-seat="62F" class="row__seat row__seat--reserved"></div>
+                    <div data-seat="62G" class="row__seat"></div>
+                </div>
+                <div data-seat="62H" class="row__seat row__seat--reserved"></div>
+                <div data-seat="62K" class="row__seat"></div>
+            </div>
+        </div>
+        <!-- /rows -->
+    </div><!-- /cube -->
+</div><!-- /container -->
+<div class="plan">
+    <h3 class="plan__title">Seating Plan</h3>
+    <div class="rows rows--mini">
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="31A"></div>
+            <div class="row__seat tooltip" data-tooltip="31C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="31D"></div>
+            <div class="row__seat tooltip" data-tooltip="31E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="31F"></div>
+            <div class="row__seat tooltip" data-tooltip="31G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="31H"></div>
+            <div class="row__seat tooltip" data-tooltip="31K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="32A"></div>
+            <div class="row__seat tooltip" data-tooltip="32C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="32D"></div>
+            <div class="row__seat tooltip" data-tooltip="32E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="32F"></div>
+            <div class="row__seat tooltip" data-tooltip="32G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="32H"></div>
+            <div class="row__seat tooltip" data-tooltip="32K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="33A"></div>
+            <div class="row__seat tooltip" data-tooltip="33C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="33D"></div>
+            <div class="row__seat tooltip" data-tooltip="33E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="33F"></div>
+            <div class="row__seat tooltip" data-tooltip="33G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="33H"></div>
+            <div class="row__seat tooltip" data-tooltip="33K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="34A"></div>
+            <div class="row__seat tooltip" data-tooltip="34C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="34D"></div>
+            <div class="row__seat tooltip" data-tooltip="34E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="34F"></div>
+            <div class="row__seat tooltip" data-tooltip="34G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="34H"></div>
+            <div class="row__seat tooltip" data-tooltip="34K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="35A"></div>
+            <div class="row__seat tooltip" data-tooltip="35C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="35D"></div>
+            <div class="row__seat tooltip" data-tooltip="35E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="35F"></div>
+            <div class="row__seat tooltip" data-tooltip="35G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="35H"></div>
+            <div class="row__seat tooltip" data-tooltip="35K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="36A"></div>
+            <div class="row__seat tooltip" data-tooltip="36C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="36D"></div>
+            <div class="row__seat tooltip" data-tooltip="36E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="36F"></div>
+            <div class="row__seat tooltip" data-tooltip="36G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="36H"></div>
+            <div class="row__seat tooltip" data-tooltip="36K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="37A"></div>
+            <div class="row__seat tooltip" data-tooltip="37C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="37D"></div>
+            <div class="row__seat tooltip" data-tooltip="37E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="37F"></div>
+            <div class="row__seat tooltip" data-tooltip="37G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="37H"></div>
+            <div class="row__seat tooltip" data-tooltip="37K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="38A"></div>
+            <div class="row__seat tooltip" data-tooltip="38C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="38D"></div>
+            <div class="row__seat tooltip" data-tooltip="38E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="38F"></div>
+            <div class="row__seat tooltip" data-tooltip="38G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="38H"></div>
+            <div class="row__seat tooltip" data-tooltip="38K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="39A"></div>
+            <div class="row__seat tooltip" data-tooltip="39C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="39D"></div>
+            <div class="row__seat tooltip" data-tooltip="39E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="39F"></div>
+            <div class="row__seat tooltip" data-tooltip="39G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="39H"></div>
+            <div class="row__seat tooltip" data-tooltip="39K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="40A"></div>
+            <div class="row__seat tooltip" data-tooltip="40C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="40D"></div>
+            <div class="row__seat tooltip" data-tooltip="40E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="40F"></div>
+            <div class="row__seat tooltip" data-tooltip="40G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="40H"></div>
+            <div class="row__seat tooltip" data-tooltip="40K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="41A"></div>
+            <div class="row__seat tooltip" data-tooltip="41C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="41D"></div>
+            <div class="row__seat tooltip" data-tooltip="41E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="41F"></div>
+            <div class="row__seat tooltip" data-tooltip="41G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="41H"></div>
+            <div class="row__seat tooltip" data-tooltip="41K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="42A"></div>
+            <div class="row__seat tooltip" data-tooltip="42C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="42D"></div>
+            <div class="row__seat tooltip" data-tooltip="42E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="42F"></div>
+            <div class="row__seat tooltip" data-tooltip="42G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="42H"></div>
+            <div class="row__seat tooltip" data-tooltip="42K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="43A"></div>
+            <div class="row__seat tooltip" data-tooltip="43C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="43D"></div>
+            <div class="row__seat tooltip" data-tooltip="43E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="43F"></div>
+            <div class="row__seat tooltip" data-tooltip="43G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="43H"></div>
+            <div class="row__seat tooltip" data-tooltip="43K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="44A"></div>
+            <div class="row__seat tooltip" data-tooltip="44C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="44D"></div>
+            <div class="row__seat tooltip" data-tooltip="44E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="44F"></div>
+            <div class="row__seat tooltip" data-tooltip="44G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="44H"></div>
+            <div class="row__seat tooltip" data-tooltip="44K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="45A"></div>
+            <div class="row__seat tooltip" data-tooltip="45C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="45D"></div>
+            <div class="row__seat tooltip" data-tooltip="45E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="45F"></div>
+            <div class="row__seat tooltip" data-tooltip="45G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="45H"></div>
+            <div class="row__seat tooltip" data-tooltip="45K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="46A"></div>
+            <div class="row__seat tooltip" data-tooltip="46C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="46D"></div>
+            <div class="row__seat tooltip" data-tooltip="46E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="46F"></div>
+            <div class="row__seat tooltip" data-tooltip="46G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="46H"></div>
+            <div class="row__seat tooltip" data-tooltip="46K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="47A"></div>
+            <div class="row__seat tooltip" data-tooltip="47C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="47D"></div>
+            <div class="row__seat tooltip" data-tooltip="47E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="47F"></div>
+            <div class="row__seat tooltip" data-tooltip="47G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="47H"></div>
+            <div class="row__seat tooltip" data-tooltip="47K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="48A"></div>
+            <div class="row__seat tooltip" data-tooltip="48C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="48D"></div>
+            <div class="row__seat tooltip" data-tooltip="48E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="48F"></div>
+            <div class="row__seat tooltip" data-tooltip="48G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="48H"></div>
+            <div class="row__seat tooltip" data-tooltip="48K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="49A"></div>
+            <div class="row__seat tooltip" data-tooltip="49C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="49D"></div>
+            <div class="row__seat tooltip" data-tooltip="49E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="49F"></div>
+            <div class="row__seat tooltip" data-tooltip="49G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="49H"></div>
+            <div class="row__seat tooltip" data-tooltip="49K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="50A"></div>
+            <div class="row__seat tooltip" data-tooltip="50C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="50D"></div>
+            <div class="row__seat tooltip" data-tooltip="50E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="50F"></div>
+            <div class="row__seat tooltip" data-tooltip="50G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="50H"></div>
+            <div class="row__seat tooltip" data-tooltip="50K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="51A"></div>
+            <div class="row__seat tooltip" data-tooltip="51C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="51D"></div>
+            <div class="row__seat tooltip" data-tooltip="51E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="51F"></div>
+            <div class="row__seat tooltip" data-tooltip="51G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="51H"></div>
+            <div class="row__seat tooltip" data-tooltip="51K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="52A"></div>
+            <div class="row__seat tooltip" data-tooltip="52C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="52D"></div>
+            <div class="row__seat tooltip" data-tooltip="52E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="52F"></div>
+            <div class="row__seat tooltip" data-tooltip="52G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="52H"></div>
+            <div class="row__seat tooltip" data-tooltip="52K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="53A"></div>
+            <div class="row__seat tooltip" data-tooltip="53C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="53D"></div>
+            <div class="row__seat tooltip" data-tooltip="53E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="53F"></div>
+            <div class="row__seat tooltip" data-tooltip="53G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="53H"></div>
+            <div class="row__seat tooltip" data-tooltip="53K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="54A"></div>
+            <div class="row__seat tooltip" data-tooltip="54C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="54D"></div>
+            <div class="row__seat tooltip" data-tooltip="54E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="54F"></div>
+            <div class="row__seat tooltip" data-tooltip="54G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="54H"></div>
+            <div class="row__seat tooltip" data-tooltip="54K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="55A"></div>
+            <div class="row__seat tooltip" data-tooltip="55C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="55D"></div>
+            <div class="row__seat tooltip" data-tooltip="55E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="55F"></div>
+            <div class="row__seat tooltip" data-tooltip="55G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="55H"></div>
+            <div class="row__seat tooltip" data-tooltip="55K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="56A"></div>
+            <div class="row__seat tooltip" data-tooltip="56C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="56D"></div>
+            <div class="row__seat tooltip" data-tooltip="56E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="56F"></div>
+            <div class="row__seat tooltip" data-tooltip="56G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="56H"></div>
+            <div class="row__seat tooltip" data-tooltip="56K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="57A"></div>
+            <div class="row__seat tooltip" data-tooltip="57C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="57D"></div>
+            <div class="row__seat tooltip" data-tooltip="57E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="57F"></div>
+            <div class="row__seat tooltip" data-tooltip="57G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="57H"></div>
+            <div class="row__seat tooltip" data-tooltip="57K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="58A"></div>
+            <div class="row__seat tooltip" data-tooltip="58C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="58D"></div>
+            <div class="row__seat tooltip" data-tooltip="58E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="58F"></div>
+            <div class="row__seat tooltip" data-tooltip="58G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="58H"></div>
+            <div class="row__seat tooltip" data-tooltip="58K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="59A"></div>
+            <div class="row__seat tooltip" data-tooltip="59C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="59D"></div>
+            <div class="row__seat tooltip" data-tooltip="59E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="59F"></div>
+            <div class="row__seat tooltip" data-tooltip="59G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="59H"></div>
+            <div class="row__seat tooltip" data-tooltip="59K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="60A"></div>
+            <div class="row__seat tooltip" data-tooltip="60C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="60D"></div>
+            <div class="row__seat tooltip" data-tooltip="60E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="60F"></div>
+            <div class="row__seat tooltip" data-tooltip="60G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="60H"></div>
+            <div class="row__seat tooltip" data-tooltip="60K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="61A"></div>
+            <div class="row__seat tooltip" data-tooltip="61C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="61D"></div>
+            <div class="row__seat tooltip" data-tooltip="61E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="61F"></div>
+            <div class="row__seat tooltip" data-tooltip="61G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="61H"></div>
+            <div class="row__seat tooltip" data-tooltip="61K"></div>
+        </div>
+        <div class="row">
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="62A"></div>
+            <div class="row__seat tooltip" data-tooltip="62C"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="62D"></div>
+            <div class="row__seat tooltip" data-tooltip="62E"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="62F"></div>
+            <div class="row__seat tooltip" data-tooltip="62G"></div>
+            <div class="row__seat tooltip row__seat--reserved" data-tooltip="62H"></div>
+            <div class="row__seat tooltip" data-tooltip="62K"></div>
+        </div>
+    </div>
+    <!-- /rows -->
+    <ul class="legend">
+        <li class="legend__item legend__item--free">Free</li>
+        <li class="legend__item legend__item--reserved">Reserved</li>
+        <li class="legend__item legend__item--selected">Selected</li>
+    </ul>
+    <button class="action action--buy">Buy tickets</button>
+</div><!-- /plan -->
+<button class="action action--lookaround action--disabled" arial-label="Unlook View"></button>
+<script src="../../seatPreview/js/classie.js"></script>
+<script src="../../seatPreview/js/main.js"></script>
+</body>
+</html>

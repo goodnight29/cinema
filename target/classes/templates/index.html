@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>影院选座</title>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../css/aircraft/aircraft.css">
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">座位自动分配</div>
+    </div>
+
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                <span class="layui-nav-item layui-nav-itemed">
+                    <a class="" href="javascript:;">分配规则</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;">个人自动分配</a></dd>
+                        <dd><a href="javascript:;">小组自动分配</a></dd>
+                        <dd><a href="javascript:;">整体自动分配</a></dd>
+                    </dl>
+                </span>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <!-- 内容主体区域 -->
+        <div style="padding: 15px;">
+
+        </div>
+    </div>
+
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        © cinema.com - 电影院座位自动分配系统
+    </div>
+</div>
+<script src="../layui/layui.js"></script>
+<script>
+    //JavaScript代码区域
+    layui.use(['element', 'layer'], function () {
+        var element = layui.element;
+        var layer = layui.layer;
+        layer.tab({
+            area: ['1200px', '600px'],
+            tab: [{
+                title: '小型影院',
+                content: '<ul>' +
+                    '<span><a href="air/A33A" title="A380" target="_self"><img src="../image/A33A-economy.png" width="300" height="100"></a><br><span style="text-align: center;width: 154px;display:block;">小型影院</span></span>' +
+                    '</ul>'
+            }, {
+                title: '中型影院',
+                content: ''
+            }, {
+                title: '大型影院',
+                content: ''
+            }]
+        });
+    });
+</script>
+</body>
+</html>

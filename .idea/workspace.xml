@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef28315e-5a4a-47b1-bd23-dc92a7527708" name="默认更改列表" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/reference/HashPersonTypeReference.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/reference/HashSeatTypeReference.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/reference/ListPersonTypeReference.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/reference/ListSeatTypeReference.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/TestRestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/TestRestController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/dao/SeatsMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/dao/SeatsMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/src/MyTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/src/TestClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/src/TestClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/FastJson2JsonRedisSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/FastJson2JsonRedisSerializer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/InitUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/InitUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/RedisConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/RedisConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/RedisUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/RedisUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/aircraft/aircraft.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/aircraft/aircraft.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/aircraft/A33A.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/aircraft/A33A.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test2.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/test2.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="171">
+      <file leaf-file-name="MainUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/MainUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2448">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAllocationService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/service/IAllocationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Init.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/Init.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>627</find>
+      <find>D</find>
+      <find>E</find>
+      <find>C</find>
+      <find>city</find>
+      <find>g1</find>
+      <find>.layui-btn</find>
+      <find>layui-btn</find>
+      <find>assignedSeatForGroup</find>
+      <find>56</find>
+      <find>gr-form</find>
+      <find>menu__item</find>
+      <find>pname</find>
+      <find>setAssigned</find>
+      <find>getAssigned</find>
+      <find>Seat</find>
+      <find>new Seat(s</find>
+      <find>assigned</find>
+      <find>setFlg</find>
+      <find>200</find>
+      <find>spring-boot-starter</find>
+      <find>lay</find>
+      <find>bottom-economy</find>
+      <find>整机</find>
+      <find>南航空客</find>
+      <find>com</find>
+      <find>fsaa</find>
+      <find>空客</find>
+      <find>南航</find>
+      <find>航班座位</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>38</replace>
+      <replace>39</replace>
+      <replace>40</replace>
+      <replace>41</replace>
+      <replace>42</replace>
+      <replace>43</replace>
+      <replace>44</replace>
+      <replace>45</replace>
+      <replace>46</replace>
+      <replace>C</replace>
+      <replace>56</replace>
+      <replace>62</replace>
+      <replace>698</replace>
+      <replace>F</replace>
+      <replace>G</replace>
+      <replace>K</replace>
+      <replace>47</replace>
+      <replace>48</replace>
+      <replace>49</replace>
+      <replace>50</replace>
+      <replace>51</replace>
+      <replace>52</replace>
+      <replace>53</replace>
+      <replace>54</replace>
+      <replace>55</replace>
+      <replace>57</replace>
+      <replace>58</replace>
+      <replace>59</replace>
+      <replace>60</replace>
+      <replace>61</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources/static/seatPreview/css</dir>
+      <dir>$PROJECT_DIR$/src/main/resources/static/seatPreview</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/test/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/test/Seat.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/seatPreview/css/component.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/seatPreview/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/test/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/aircraft.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/test1.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/test2.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Seat2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/reference/HashSeatTypeReference.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/aircraft/aircraft.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Passengers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/TestRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/template/controller/PersonTemplateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/template/bo/PersonTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/InitUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/AllocationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/AllocationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/serializerUtils/fastjsonSerializerReference/ListAllocationTypeReference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/service/impl/ISeatsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/service/ISeatsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Seats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/dao/SeatsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Allocation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/dao/SeatsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/serializerUtils/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/serializerUtils/fastjsonSerializerReference/ListSeatTypeReference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Seat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/dao/AllocationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/dao/AllocationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/service/impl/IAllocationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/service/IAllocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Passenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/PersonTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/Init.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/bo/Global.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedSeatForOneAndGroupController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/MainUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/aircraft/A33A.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/cinema/util/Init.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenrepository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fsaas" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fsaas" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1805" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fsaas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fsaas" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fsaas" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fsaas" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557234965166" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/qhit" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lyc\Desktop\Test\fsaas\src\main\resources\static\css\aircraft" />
+      <recent name="C:\Users\Lyc\Desktop\Test\fsaas\src\main\resources\templates\aircraft" />
+      <recent name="C:\Users\Lyc\Desktop\Test\fsaas\src\main\java\com\qhit\fsaas\bo" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qhit.fsaas.service.impl" />
+      <recent name="com.qhit.fsaas.service" />
+      <recent name="com.qhit.fsaas.bo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lyc\Desktop\Test\fsaas\src\main\resources" />
+      <recent name="C:\Users\Lyc\Desktop\Test\fsaas\src\main\java\com\qhit\fsaas\bo" />
+      <recent name="C:\Users\Lyc\Desktop\Test\fsaas\src\main\java\com\qhit\fsaas\dao" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/qhit/fsaas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AirasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qhit.fsaas.AirasApplication" />
+      <module name="fsaas" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Lyc\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef28315e-5a4a-47b1-bd23-dc92a7527708" name="默认更改列表" comment="" />
+      <created>1555289077303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555289077303</updated>
+      <workItem from="1555289080492" duration="6267000" />
+      <workItem from="1555302718792" duration="1007000" />
+      <workItem from="1555304639211" duration="9771000" />
+      <workItem from="1555326000628" duration="2966000" />
+      <workItem from="1555332812282" duration="1205000" />
+      <workItem from="1555372529450" duration="876000" />
+      <workItem from="1555373647062" duration="246000" />
+      <workItem from="1555374399731" duration="1483000" />
+      <workItem from="1555376223751" duration="61000" />
+      <workItem from="1555400586040" duration="96000" />
+      <workItem from="1555414381884" duration="14000" />
+      <workItem from="1555416186704" duration="1460000" />
+      <workItem from="1555458712577" duration="950000" />
+      <workItem from="1555470118112" duration="3742000" />
+      <workItem from="1555483929101" duration="8641000" />
+      <workItem from="1555492973729" duration="747000" />
+      <workItem from="1555551784063" duration="3118000" />
+      <workItem from="1555586988630" duration="1099000" />
+      <workItem from="1555844491970" duration="5299000" />
+      <workItem from="1555851130348" duration="5629000" />
+      <workItem from="1555887889201" duration="6665000" />
+      <workItem from="1555919758068" duration="5659000" />
+      <workItem from="1555931006839" duration="5198000" />
+      <workItem from="1556006216962" duration="5747000" />
+      <workItem from="1555987421443" duration="1407000" />
+      <workItem from="1556004876465" duration="5194000" />
+      <workItem from="1556071839218" duration="2040000" />
+      <workItem from="1556236055050" duration="548000" />
+      <workItem from="1556239887038" duration="432000" />
+      <workItem from="1556327099502" duration="10460000" />
+      <workItem from="1556409728297" duration="722000" />
+      <workItem from="1556535053763" duration="499000" />
+      <workItem from="1556536904799" duration="255000" />
+      <workItem from="1556537968151" duration="254000" />
+      <workItem from="1556538390086" duration="462000" />
+      <workItem from="1556539028011" duration="84000" />
+      <workItem from="1556539193191" duration="374000" />
+      <workItem from="1556852235665" duration="255000" />
+      <workItem from="1556968948007" duration="6479000" />
+      <workItem from="1557014444610" duration="11250000" />
+      <workItem from="1557027846558" duration="247000" />
+      <workItem from="1557036188052" duration="1122000" />
+      <workItem from="1557037539745" duration="7685000" />
+      <workItem from="1557047247670" duration="789000" />
+      <workItem from="1557049230609" duration="35000" />
+      <workItem from="1557053265907" duration="304000" />
+      <workItem from="1557056079223" duration="38000" />
+      <workItem from="1557056888506" duration="240000" />
+      <workItem from="1557057389555" duration="93000" />
+      <workItem from="1557103320526" duration="305000" />
+      <workItem from="1557103945343" duration="662000" />
+      <workItem from="1557132438123" duration="138000" />
+      <workItem from="1557141210298" duration="2641000" />
+      <workItem from="1557144001671" duration="3090000" />
+      <workItem from="1557186906087" duration="51000" />
+      <workItem from="1557159270125" duration="153000" />
+      <workItem from="1557231363195" duration="3215000" />
+      <workItem from="1557270431446" duration="88000" />
+      <workItem from="1557273453143" duration="499000" />
+      <workItem from="1557274675772" duration="152000" />
+      <workItem from="1557274849953" duration="213000" />
+      <workItem from="1557313464893" duration="4318000" />
+      <workItem from="1557325514307" duration="1595000" />
+      <workItem from="1557356856920" duration="49000" />
+      <workItem from="1557359614276" duration="6189000" />
+      <workItem from="1557366503916" duration="6825000" />
+      <workItem from="1557384354118" duration="6781000" />
+      <workItem from="1557468162801" duration="4092000" />
+      <workItem from="1557660393943" duration="3339000" />
+      <workItem from="1557727655792" duration="15000" />
+      <workItem from="1557795675765" duration="5137000" />
+      <workItem from="1557807693934" duration="7978000" />
+      <workItem from="1557823941750" duration="1402000" />
+      <workItem from="1557875538452" duration="591000" />
+      <workItem from="1557990513469" duration="1952000" />
+      <workItem from="1558049639277" duration="596000" />
+      <workItem from="1558075624826" duration="595000" />
+      <workItem from="1558323956068" duration="7445000" />
+      <workItem from="1558331716478" duration="8336000" />
+      <workItem from="1558501715719" duration="2238000" />
+      <workItem from="1558504495340" duration="2017000" />
+      <workItem from="1558832981478" duration="71000" />
+      <workItem from="1558849664493" duration="38110000" />
+      <workItem from="1559096106399" duration="10155000" />
+      <workItem from="1559126962520" duration="119000" />
+      <workItem from="1591690190900" duration="1832000" />
+      <workItem from="1591692206757" duration="136000" />
+      <workItem from="1591692369737" duration="1807000" />
+      <workItem from="1591700789589" duration="1232000" />
+      <workItem from="1591707855984" duration="25000" />
+      <workItem from="1591756907404" duration="4120000" />
+      <workItem from="1591769133382" duration="9497000" />
+      <workItem from="1591787548680" duration="1508000" />
+      <workItem from="1591833716179" duration="1466000" />
+      <workItem from="1591862316884" duration="1764000" />
+      <workItem from="1592017137582" duration="222000" />
+      <workItem from="1592048857233" duration="659000" />
+      <workItem from="1592050759168" duration="1069000" />
+      <workItem from="1592052190084" duration="2320000" />
+      <workItem from="1592092994278" duration="3671000" />
+      <workItem from="1592098064412" duration="187000" />
+      <workItem from="1592117236906" duration="2069000" />
+      <workItem from="1592179309698" duration="4783000" />
+      <workItem from="1592192232850" duration="961000" />
+      <workItem from="1592200985866" duration="3335000" />
+      <workItem from="1592211215171" duration="2800000" />
+      <workItem from="1592269092513" duration="6480000" />
+      <workItem from="1592290738857" duration="2838000" />
+      <workItem from="1592351925005" duration="9126000" />
+      <workItem from="1592364013064" duration="1312000" />
+      <workItem from="1592373810564" duration="5274000" />
+      <workItem from="1592400197359" duration="124000" />
+      <workItem from="1592441026692" duration="1832000" />
+      <workItem from="1592463685430" duration="1932000" />
+      <workItem from="1592527093466" duration="239000" />
+      <workItem from="1592546600475" duration="984000" />
+      <workItem from="1592556604937" duration="1156000" />
+      <workItem from="1592571273763" duration="512000" />
+      <workItem from="1592621149811" duration="1849000" />
+      <workItem from="1592800811836" duration="1550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="341037000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16987543" sideWeight="0.5026824" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31223175" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21983914" sideWeight="0.50208336" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5341831" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27406567" sideWeight="0.49731758" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17972103" sideWeight="0.49791667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886267" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23773174" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="调色板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51585627" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Codota" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" x="0" y="0" width="337" height="678" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Mybatis datasource" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="设计器" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41120508" sideWeight="0.5005353" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="调色板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21983914" sideWeight="0.50208336" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24896266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.62650603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51585627" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Codota" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" x="0" y="0" width="337" height="678" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41097724" sideWeight="0.49946466" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Mybatis datasource" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25067025" sideWeight="0.49791667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="设计器" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/test/TestClass.java</url>
+          <line>275</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/test/TestClass.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>212</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedForAllPlaneController.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedSeatForOneAndGroupController.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/AssignedSeatForOneAndGroupController.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="85" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="seatHash.entrySet().toArray()[0]" />
+        <watch expression="((StandardMultipartFile)file).filename" custom="org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.StandardMultipartFile" />
+        <watch expression="seats" />
+        <watch expression="seatList.get(0)" />
+        <watch expression="seatList.get(6)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/cinema/util/MainUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/cinema/service/impl/ISeatsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/cinema/util/Init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/cinema/bo/Allocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/Init.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/util/MainUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2448">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/service/IAllocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/fsaas/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>fsaas:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fsaas</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
